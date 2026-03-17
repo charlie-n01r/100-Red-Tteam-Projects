@@ -1,2 +1,136 @@
-# 100-Red-Tteam-Projects
-My take on the 100 Red Team Projects challenge
+
+<p align="center"> 
+    <img src="/images/red.png">
+</p>
+
+# 100  Red Team Projects for Pentesters and Network Managers
+
+My take on the 100 Red Project Teams, a curated list designed to help practice important concepts and build from the ground up key tools  related to networking, cybersecurity, and Red Team. 
+
+My goal with this repository is to build some practical experience, build some cool projects, get better at documenting my work, and use these project ideas as basis to learn many other programming languages.
+
+If possible, in the future, I might even add more projects and ideas into the list.
+
+Origila Project Idea: https://github.com/kurogai/100-mitre-attack-projects
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Level 1 | Basic | Example
+------------------------------------------------|------------------------------------------------|-----------------------------------------
+[0] | TCP or UDP server just to receive messages | :white_check_mark:
+[1] | TCP chat server | :x:
+[2] | UDP chat server | :x:
+[3] | Multi-threaded UDP or TCP chat server | :x:
+[4] | Server for file transfers | :x:
+[5] | Caesar Cipher tool | :x:
+[6] | TCP chat server -> The messages should be encoded with Caesar Cipher | :x:
+[7] | ROT13 Cipher | :x:
+[8] | UDP Chat server -> The messages should be encoded with ROT13 Cipher | :x:
+[9] | Remote command execution | :x:
+[10] | Recreate the Netcat tool | :x:
+-------------------------------------------------------------------------------------------------------------------------------------------
+Level 2 | Essential | Example
+------------------------------------------------|------------------------------------------------|-----------------------------------------
+[11] | Simple port scanner | :x:
+[12] | Port scanner with OS fingerprint using TTL (Time To Live) | :x: 
+[13] | Port scanner with port footprint (HTTP? DNS? FTP? IRC?) | :x: 
+[14] | Simple Web Directory brute-forcer (Threaded) | :x:
+[15] | Recursive Web Directory brute-forcer (Threaded peer recursion) | :x:
+[16] | Web Login bruteforce tool | :x:
+[17] | FTP Login bruteforce tool | :x:
+[18] | SSH Login bruteforce tool | :x:
+[19] | FTP User footprint | :x:
+[20] | MYSQL User footprint | :x:
+[21] | Simple Google Bot for web scan | :x:
+[22] | Auto website comment bot | :x:
+[23] | Auto website message bot | :x:
+[24] | Web-scrapping using Regex | :x:
+[25] | Bot to collect information about someone using Google / Bing / Yahoo! | :x:
+[26] | Simple SQLi tester | :x:
+[27] | Simple XSS tester | :x:
+[28] | Simple Wordpress brute-forcer | :x:
+[29] | SQLi database retriever | :x:
+[30] | Spam creator | :x:
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Level 3 | Advanced Network Attacks | Example
+------------------------------------------------|-------------------------------------------|----------------------------------------------
+[31] | Payload for reverse shell | :x:
+[32] | Payload to capture screenshots | :x:
+[33] | Implement a Botnet | :x:
+[34] | Passive web scanner | :x:
+[35] | ARP poisoning tool | :x:
+[36] | Application that creates random shortcuts on screen | :x:
+[37] | Application to encrypt a file | :x:
+[38] | Develop a Ransomware application | :x:
+[39] | Spam Email sender | :x:
+[40] | HTTP server for phishing | :x:
+[41] | Honeypot creator | :x:
+[42] | Application that connects to the Tor Network | :x:
+[43] | IRC Server | :x:
+[44] | Packet Capture tool | :x:
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+Level 4 | Data analysis, payloads and more networking | Example
+------------------------------------------------|------------------------------------------|-----------------------------------------------
+[45] | Packet Data analysis | :x:
+[46] | Packet image analysis with OpenCV | :x:
+[47] | Develop a hexdump tool | ✔️
+[48] | Payload that moves the mouse cursor | :x:
+[49] | Vigenère Cipher | :x:
+[50] | Payload that starts automatically using Windows Regedit | :x:
+[51] | Payload that starts as a daemon | :x:
+[52] | Payload that retrieves browser information | :x:
+[53] | Link generator | :x:
+[54] | ASCII Name generator [ just for fun :) ]  | :x:
+[55] | Full chat server with private messages, file and image transfer | :x:
+[56] | Simple firewall | :x:
+[57] | Gateway | :x:
+[58] | Powershell payload generator | :x:
+[59] | Bash payload generator | :x:
+[60] | Subdomain enumerator | :x:
+[61] | DNS Enumerator | :x:
+[62] | Your own interpreter | :x:
+[63] | Develop a Worm | :x:
+[64] | Server for DDOS | :x:
+[65] | Implement an IP Tracker | :x:
+[66] | BurpSuite extender | :x:
+[67] | Develop a Trojan | :x:
+[68] | Man In The Browser tool (kind of) | :x:
+[69] | Process monitor (Windows and Linux) | :x:
+[70] | Windows token privilege escalation tool | :x:
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+ Level 5 | Cryptography, Reverse Engineering and Post exploitation | Example
+------------------------------------------------|------------------------------------------|-----------------------------------------------
+[71] | Develop a code injection tool | :x:
+[72] | Develop a Worm with auto replication over email | :x:
+[73] | Simple Disassembler | :x:
+[74] | Server for DDoS with multi-staged operations and multi-threaded handling of clients | :x:
+[75] | Password hash cracker | :x:
+[76] | Direct code injection exploit | :x:
+[77] | Android daemon payload | :x:
+[78] | Browser exploitation tool | :x:
+[79] | Simple tool for Reverse Engineering | :x:
+[80] | Script for OS enumeration (after shell) | :x:
+[81] | RSA Payload generator | :x:
+[82] | Handshake capture | :x:
+[83] | Wifi monitor | :x:
+[84] | Buffer Overflow exploit | :x:
+[85] | Stack Overflow exploit | :x:
+[86] | Banner exploit | :x:
+[87] | ISS Exploit | :x:
+[88] | Wifi de-authentication attack (DoS) tool | :x:
+[89] | Badchar detector | :x:
+[90] | Firewall detector | :x:
+[91] | Exploitation Framework | :x:
+[92] | Botnet with SSH C&C and automatic server backup to prevent loss of control | :x:
+[93] | Windows enumeration tool | :x:
+[94] | Application information gathering (after shell) | :x:
+[95] | Recreate TCPDUMP | :x:
+[96] | Bluetooth exploit | :x:
+[97] | Windows Blue Screen Exploit | :x:
+[98] | Encoded exploit | :x:
+[99] | Antivirus evasion application | :x:
+[100] | Your own metasploit module | :x:
+
+---
