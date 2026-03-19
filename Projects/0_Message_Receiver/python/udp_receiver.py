@@ -3,25 +3,28 @@ import socket
 def receiver():
     localhost = '127.0.0.1'
     port = 6913
+    # Open socket in UDP mode and bind it to localhost:6913
     sck = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     sck.bind((localhost, port))
 
     data = None
-    print('Listening for messages')
+    print('Listening for messages...')
     while data != b'exit':
+        # If any data is received print it
         data, _address = sck.recvfrom(1024)
         print(data.decode())
 
 def sender():
     localhost = '127.0.0.1'
     port = 6913
+    # Open socket in UDP mode
     sck = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     
     message = None
     while message != 'exit':
+        # Send a message to localhost:6913
         message = input('Insert message to send (send `exit` to stop): ')
         sck.sendto(message.encode('utf-8'), (localhost, port))
-
 
 
 if __name__ == '__main__':
@@ -33,4 +36,3 @@ if __name__ == '__main__':
             receiver()
         case _:
             exit()
-
